@@ -10,4 +10,3 @@ async function getMealsBySearch(term) {
     const mealsd = await fetch('www.themealdb.com/api/json/v1/1/search.php?s=' + term);
 }
 
-sAAsasasdasdasdasdasdasdasdasdasdasdasdas
