@@ -22,11 +22,12 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .big-text {
-    font-size: 5em;
+    font-size: 6em;
     line-height: 1;
-    margin: 1 2rem;
+    margin: 2rem;
 }
 .count-el {
     text-align: center;
@@ -36,4 +37,7 @@ h1 {
     align-items: center center;
     justify-content: center;
     text-align: center;
+}
+span {
+    font-size: 1.3rem;
 }

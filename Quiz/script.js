@@ -1,7 +1,6 @@
-
 //To check why incorrect answers are being proccessed as correct...//
-
-
+//Correct answers are c c a, yet js selects the 3th 3th and 1th position from aray
+//regardless of value stored
 const quizData = [
     {
         question: "How many coffes are ok to drink per day?",
@@ -49,13 +48,9 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b; 
     c_text.innerText = currentQuizData.c; 
     d_text.innerText = currentQuizData.d; 
-
 }
 
 function getSelected() {
-    
-    
-
     answerEls.forEach((answerEl) => {
         if(answerEl.checked) {
             answer =  answerEl.id;
@@ -77,7 +72,6 @@ submitBtn.addEventListener('click', () => {
         if (answer === quizData[currentQuiz].correct) {
             score++;
         }
-
         currentQuiz++;
 
         if (currentQuiz < quizData.length) {
